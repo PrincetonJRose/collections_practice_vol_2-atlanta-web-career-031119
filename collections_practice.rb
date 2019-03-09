@@ -108,6 +108,28 @@ def organize_schools(school_list)
   organized = {}
   city = []
   locations = []
-  number = 0
-
+  schools.each do |key, value|
+    value.each do |locate, place|
+      if city.include?(place)
+        next
+      else
+        city << place
+      end
+    end
+  end
+  for i in 0...city.size
+    locations[i] = []
+    end
+  for n in 0...city.size
+    schools.each do |key, value|
+        value.each do |locate, place|
+          if city[n].include?(place)
+          locations[n] << key
+          end
+        end
+      end
+    end
+  for i in 0...city.size
+    organize[city[i]] = locations[i]
+    end
 end
