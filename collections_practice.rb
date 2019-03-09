@@ -48,4 +48,5 @@ end
 
 def merge_data(data1, data2)
   data3 = data1.merge(data2) { |key, value1, value2| value1.merge(value2) }
+  binding.pry
 end
