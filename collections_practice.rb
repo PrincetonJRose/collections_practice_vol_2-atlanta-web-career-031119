@@ -1,4 +1,6 @@
 # your code goes here
+require "pry"
+
 def begins_with_r(arr)
   num = 0
   arr.each do |item|
@@ -45,5 +47,6 @@ def remove_non_strings(array)
 end
 
 def merge_data(data1, data2)
+  binding.pry
   data1.merge(data2) { |key, value1, value2| [value1, value2] }
 end
