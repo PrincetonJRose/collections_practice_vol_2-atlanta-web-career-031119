@@ -33,7 +33,6 @@ def first_wa(words)
       return word
     end
   end
-
 end
 
 def remove_non_strings(array)
@@ -99,10 +98,10 @@ def find_cool(element)
     info.each do |key, value|
       if value == "cool"
         cool << info
-        return cool
       end
     end
   end
+  return cool
 end
 
 def organize_schools(school_list)
@@ -110,5 +109,5 @@ def organize_schools(school_list)
   city = []
   locations = []
   number = 0
-  
+
 end
