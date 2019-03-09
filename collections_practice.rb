@@ -43,3 +43,8 @@ def remove_non_strings(array)
   end
   return array2
 end
+
+def merge_data(data1, data2)
+  data1.merge(data2)
+end
+
