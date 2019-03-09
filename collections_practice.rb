@@ -72,5 +72,5 @@ def count_elements(element)
 end
 
 def merge_data(data1, data2)
-  binding.pry
+
 end
