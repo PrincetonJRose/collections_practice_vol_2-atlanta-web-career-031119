@@ -130,6 +130,6 @@ def organize_schools(school_list)
     end
   end
   for i in 0...city.size
-    organize[city[i]] = locations[i]
+    organized[city[i]] = locations[i]
   end
 end
