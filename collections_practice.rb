@@ -106,5 +106,9 @@ def find_cool(element)
 end
 
 def organize_schools(school_list)
-  binding.pry
+  organized = {}
+  city = []
+  locations = []
+  number = 0
+  
 end
