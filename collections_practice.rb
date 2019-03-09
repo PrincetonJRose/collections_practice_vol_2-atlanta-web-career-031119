@@ -94,5 +94,13 @@ def merge_data(data1, data2)
 end
 
 def find_cool(element)
-  
+  cool = []
+  element.each do |info|
+    info.each do |key, value|
+      if value == "cool"
+        cool << info
+        return cool
+      end
+    end
+  end
 end
