@@ -72,5 +72,22 @@ def count_elements(element)
 end
 
 def merge_data(data1, data2)
-  binding.pry
+  number = 0
+  data3 = Marshal.load(Marshal.dump(data1))
+  data1.each do |info|
+    info.each do |key, value|
+      if key == :first_name
+      data2.each do |info2|
+          info2.each do |key2, value2|
+            if key2 == value
+            value2.each do |value3, stat|
+                data3[number][value3] = stat
+              end
+            end
+          end
+        end
+      end
+    end
+    number += 1
+  end
 end
