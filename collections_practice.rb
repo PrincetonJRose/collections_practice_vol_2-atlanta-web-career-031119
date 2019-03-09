@@ -72,12 +72,5 @@ def count_elements(element)
 end
 
 def merge_data(a, b)
-  c = a.merge!(b) do |key, a_item, b_item|
-    if a_item.is_a?(Hash)
-      merge_dat(a_item, b_item)
-    else
-      b_item
-    end
-  end
-  c
+  binding.pry
 end
