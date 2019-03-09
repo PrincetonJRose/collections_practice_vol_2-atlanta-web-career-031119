@@ -46,7 +46,6 @@ def remove_non_strings(array)
   return array2
 end
 
-def merge_data(a, b)
-  a.merge(b) {|key, a_val, b_val| a_val.merge b_val }
+def merge_data(data1, data2)
   binding.pry
 end
