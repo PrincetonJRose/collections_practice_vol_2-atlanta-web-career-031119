@@ -79,4 +79,5 @@ def merge_data(a, b)
       b_item
     end
   end
+  c
 end
