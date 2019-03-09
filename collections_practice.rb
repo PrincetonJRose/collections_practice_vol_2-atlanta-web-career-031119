@@ -104,3 +104,7 @@ def find_cool(element)
     end
   end
 end
+
+def organize_schools(school_list)
+  binding.pry
+end
