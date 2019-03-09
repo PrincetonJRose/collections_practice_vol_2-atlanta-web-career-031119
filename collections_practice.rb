@@ -46,6 +46,10 @@ def remove_non_strings(array)
   return array2
 end
 
+def count_elements(element)
+  binding.pry
+end
+
 def merge_data(data1, data2)
   binding.pry
 end
