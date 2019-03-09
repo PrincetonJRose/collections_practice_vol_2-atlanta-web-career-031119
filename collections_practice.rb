@@ -90,4 +90,5 @@ def merge_data(data1, data2)
     end
     number += 1
   end
+  data3
 end
