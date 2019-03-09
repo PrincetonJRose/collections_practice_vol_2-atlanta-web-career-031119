@@ -94,5 +94,5 @@ def merge_data(data1, data2)
 end
 
 def find_cool(element)
-  binding.pry
+  
 end
